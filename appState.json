@@ -1,0 +1,90 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "df05e85b-0329-48db-bb40-6de9e59372f9": {
+        "id": "df05e85b-0329-48db-bb40-6de9e59372f9",
+        "parent": null,
+        "name": "hiru-0904-gcp.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "hiru-0904-gcp.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "nodejs8",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0,
+          "name": "hiru0904Gcpedit"
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ]
+      },
+      "3e4b83bd-c34a-495e-8c91-3c25a0634503": {
+        "id": "3e4b83bd-c34a-495e-8c91-3c25a0634503",
+        "parent": null,
+        "name": "index.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "index.js"
+      },
+      "28090e3d-b3bd-4e00-8870-9dedea3210a4": {
+        "id": "28090e3d-b3bd-4e00-8870-9dedea3210a4",
+        "parent": null,
+        "name": "main.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "main.py"
+      }
+    },
+    "openFiles": [
+      "df05e85b-0329-48db-bb40-6de9e59372f9"
+    ],
+    "currentFileId": "df05e85b-0329-48db-bb40-6de9e59372f9",
+    "resources": {
+      "http-trigger": {
+        "name": "http-trigger",
+        "type": "http-trigger",
+        "config": {}
+      }
+    },
+    "customTemplate": {
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "hiru-0904-gcp",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east1",
+    "platform": "GCP",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1586415735480
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "hiru-0904-gcp",
+      "url": "https://github.com/HirudineeADRT/hiru-0904-gcp"
+    }
+  }
+}
