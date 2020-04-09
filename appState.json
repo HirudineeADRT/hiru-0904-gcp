@@ -66,21 +66,37 @@
           "timeout": 60,
           "memory": 128,
           "triggerType": 1,
-          "name": "samplehiru"
+          "name": "samplehiruedit"
         },
-        "triggers": []
+        "triggers": [
+          {
+            "resourceName": "pubsubcloudBuilds",
+            "config": {}
+          }
+        ]
       }
     },
     "openFiles": [
       "df05e85b-0329-48db-bb40-6de9e59372f9",
       "733b02df-dfd5-4751-a478-6a29e8b2e60d"
     ],
-    "currentFileId": "df05e85b-0329-48db-bb40-6de9e59372f9",
+    "currentFileId": "733b02df-dfd5-4751-a478-6a29e8b2e60d",
     "resources": {
       "http-trigger": {
         "name": "http-trigger",
         "type": "http-trigger",
         "config": {}
+      },
+      "pubsubcloudBuilds": {
+        "name": "pubsubcloudBuilds",
+        "type": "CloudPubSub",
+        "config": {
+          "mode": 1,
+          "topic": {
+            "name": "cloud-builds",
+            "subscriptions": []
+          }
+        }
       }
     },
     "customTemplate": {
@@ -101,7 +117,7 @@
     "platform": "GCP",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1586416109952
+    "lastSave": 1586416405408
   },
   "VCS_STATE": {
     "provider": "GitHub",
