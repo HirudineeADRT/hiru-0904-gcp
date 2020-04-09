@@ -47,10 +47,33 @@
         "children": [],
         "isRemovable": false,
         "filePath": "main.py"
+      },
+      "733b02df-dfd5-4751-a478-6a29e8b2e60d": {
+        "id": "733b02df-dfd5-4751-a478-6a29e8b2e60d",
+        "parent": null,
+        "name": "samplehiru.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "samplehiru.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "nodejs8",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 1,
+          "name": "samplehiru"
+        },
+        "triggers": []
       }
     },
     "openFiles": [
-      "df05e85b-0329-48db-bb40-6de9e59372f9"
+      "df05e85b-0329-48db-bb40-6de9e59372f9",
+      "733b02df-dfd5-4751-a478-6a29e8b2e60d"
     ],
     "currentFileId": "df05e85b-0329-48db-bb40-6de9e59372f9",
     "resources": {
@@ -78,7 +101,7 @@
     "platform": "GCP",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1586415735480
+    "lastSave": 1586416109952
   },
   "VCS_STATE": {
     "provider": "GitHub",
